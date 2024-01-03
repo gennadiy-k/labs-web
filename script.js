@@ -15,7 +15,7 @@ const depositTimesByType = [
     ]
 ];
 
-var depositType = document.getElementById("deposit-type");
+let depositType = document.getElementById("deposit-type");
 depositType.addEventListener('change', function(){
     let i, L = document.getElementById("deposit-time").options.length - 1;
         for(i = L; i >= 0; i--) {
